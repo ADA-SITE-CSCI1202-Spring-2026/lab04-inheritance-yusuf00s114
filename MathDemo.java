@@ -1,14 +1,14 @@
 public class MathDemo {
 
-    int min(int a, int b){
+    static int min(int a, int b){
         return a < b ? a : b;
     }
 
-    int max(int a, int b){
+    static int max(int a, int b){
         return a > b ? a : b;
     }
 
-    int sum(int args[]){
+    static int sum(int args[]){
         int result = 0;
         for (int i = 0; i < args.length; i++) {
             result += args[i];
